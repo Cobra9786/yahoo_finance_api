@@ -1,0 +1,12 @@
+[package]
+name = "financial_data_fetcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yahoo_finance_api = "2.3.0"       # This version may vary; check for the latest version on crates.io
+time = "0.3"                    # For date and time handling
+tokio = { version = "1", features = ["full"] }  # For asynchronous runtime
+
+[dev-dependencies]
+tokio-test = "0.4.4" 
